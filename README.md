@@ -29,4 +29,34 @@ Buatlah repository baru dengan nama Lab2Web.
 
    ![Screenshot 2024-03-17 230636](https://github.com/Zidna090702/Lab2_Pemrog-WEB-2/assets/115474076/7b3061a1-3483-4d02-839c-cf27366e8299)
 
-1. 
+2. lalu buat file seperti di bawah ini
+
+   ![Screenshot 2024-03-17 232824](https://github.com/Zidna090702/Lab2_Pemrog-WEB-2/assets/115474076/403452e4-bc5d-41b8-ad58-bc21811f2429)
+
+3. Ketikan source code
+
+   A. Mendefinisikan sebuah form HTML dengan input untuk nama, tanggal lahir, dan pilihan pekerjaan.
+
+         <!DOCTYPE html>
+       <html>
+       <head>
+           <title>Form Input</title>
+       </head>
+       <body>
+           <h2>Form Input</h2>
+           <form method="post" action="">
+               Nama: <input type="text" name="nama"><br><br>
+               Tanggal Lahir: <input type="date" name="tanggal_lahir"><br><br>
+               Pekerjaan:
+               <select name="pekerjaan">
+                   <option value="Programmer">Programmer</option>
+
+   Output
+
+   
+                   <option value="Operator Produksi">Operator Produksi</option>
+                   <option value="Admin">Admin</option>
+               </select><br><br>
+               <input type="submit" name="submit" value="Submit">
+           </form>
+
